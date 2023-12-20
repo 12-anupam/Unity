@@ -19,7 +19,7 @@ public class ScoreScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             playerGameobject.score = playerGameobject.score + 1;
-            Debug.Log("Score: " + score);
+            Debug.Log("Score: " + playerGameobject.score);
         }
     }
 }
