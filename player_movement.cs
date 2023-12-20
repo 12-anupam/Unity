@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class player_movement : MonoBehaviour
 {
@@ -9,11 +10,13 @@ public class player_movement : MonoBehaviour
     // [SerializeField] private float speed = 0f;
     public bool isCollided = false;
 
+    
+    
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
-
 
     void FixedUpdate()
     {
@@ -32,9 +35,5 @@ public class player_movement : MonoBehaviour
         // }
     }
 
-
-
-
-
-
+   
 }
