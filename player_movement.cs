@@ -9,7 +9,7 @@ public class player_movement : MonoBehaviour
     public float JumpForce;
     // [SerializeField] private float speed = 0f;
     public bool isCollided = false;
-
+    public int score = 0;
     
     
 
